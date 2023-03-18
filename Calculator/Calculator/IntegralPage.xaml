@@ -19,6 +19,8 @@
             HorizontalOptions="Center">
 
             <ProgressBar 
+                WidthRequest="200"
+                HeightRequest="20" 
                 x:Name="ProgressBarItem"
                 ProgressColor="Blue">
             </ProgressBar>

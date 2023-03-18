@@ -1,1 +1,1 @@
-C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\Calculator.csproj;x64
+C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\Calculator.csproj;x64

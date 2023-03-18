@@ -29,7 +29,7 @@ public partial class IntegralPage : ContentPage
     double SolveIntegral()
     {
         double result = 0;
-        double step = 0.000001;
+        double step = 1e-6;
         double x = 0;
 
         for (int i = 0; i < (int)(1 / step); ++i)
@@ -40,12 +40,29 @@ public partial class IntegralPage : ContentPage
             }
             result += Math.Sin(x) * step;
             x += step;
-            MainThread.BeginInvokeOnMainThread(() =>
+
+            double a = 1;
+            for (int m = 0; m < 100; m++)
             {
-                ProgressBarItem.Progress = (i / (1 / step));
-                ProgressLabel.Text = (Convert.ToDouble(ProgressBarItem.Progress) * 100).ToString() + '%';
-            });
+                a /= m;
+            }
+
+            if (i % 1e4 == 0)
+            {
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    ProgressBarItem.Progress = (i / (1 / step));
+                    ProgressLabel.Text = Math.Round((Convert.ToDouble(ProgressBarItem.Progress) * 100), 2).ToString() + '%';
+                });
+            }
+            
         }
+        MainThread.BeginInvokeOnMainThread(() =>
+        {
+            ProgressBarItem.Progress = 1;
+            ProgressLabel.Text = "100%";
+        });
+
         return result;
     }
 

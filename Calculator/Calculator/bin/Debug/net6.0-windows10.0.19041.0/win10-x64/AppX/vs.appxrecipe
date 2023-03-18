@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>a97c065c-c15d-47e7-8c2c-e3e889c5fd10</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>C9CBE558A5D0DF8A5802A1993EBC9D1E249FDF6E3326D3E5971F9068B6EBBB07</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a97c065c-c15d-47e7-8c2c-e3e889c5fd10_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a97c065c-c15d-47e7-8c2c-e3e889c5fd10_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-16T20:35:34.546</Modified>
+      <Modified>2023-03-18T13:31:29.154</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-16T20:32:51.401</Modified>
+      <Modified>2023-03-18T13:31:27.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.runtimeconfig.json">
       <PackagePath>Calculator.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-16T20:32:50.760</Modified>
+      <Modified>2023-03-17T17:28:41.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.dll">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2023-03-16T20:35:31.543</Modified>
+      <Modified>2023-03-18T13:31:25.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calculator.exe</PackagePath>
-      <Modified>2023-03-16T20:35:31.556</Modified>
+      <Modified>2023-03-18T13:31:25.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\westcrime\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.15\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1061,9 +1061,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-09-07T21:54:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.deps.json">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Calculator.deps.json">
       <PackagePath>Calculator.deps.json</PackagePath>
-      <Modified>2023-03-16T20:35:34.206</Modified>
+      <Modified>2023-03-18T13:31:28.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1077,247 +1077,247 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-01-18T23:56:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-02-16T14:13:13.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:06.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:06.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:06.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-02-16T14:13:13.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-02-16T14:13:13.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-03-16T18:55:07.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:08.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:08.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:08.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-16T18:55:07.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-16T18:55:07.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-16T18:55:07.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-16T18:55:07.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-16T18:55:07.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-16T18:55:07.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-16T18:55:07.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-16T18:55:07.589</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-16T18:55:07.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-16T18:55:07.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-03-16T18:55:07.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-03-16T18:55:07.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-03-16T18:55:07.541</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-03-16T18:55:07.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-03-16T18:55:07.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
       <PackagePath>back.scale-100.png</PackagePath>
       <Modified>2023-02-19T12:42:50.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\backspace.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\backspace.scale-100.png">
       <PackagePath>backspace.scale-100.png</PackagePath>
       <Modified>2023-02-19T12:55:01.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-03-16T18:55:07.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-03-16T18:55:07.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-03-16T18:55:07.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-03-16T18:55:07.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_2\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\westcrime\course_2\ISP_4_sem\Calculator\Calculator\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-03-16T18:55:07.859</Modified>
     </AppxPackagedFile>
