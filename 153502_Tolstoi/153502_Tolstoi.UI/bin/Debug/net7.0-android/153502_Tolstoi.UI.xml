@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>153502_Tolstoi.UI</name>
+    </assembly>
+    <members>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.Team">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.team"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.Name">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.name"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.Age">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.age"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ScoredGoals">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.scoredGoals"/>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.choosingFileCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ChoosingFileCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ChoosingFileCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ChoosingFile"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.confirmCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ConfirmCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.ConfirmCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.AddingPlayerViewModel.Confirm"/>.</summary>
+        </member>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.Name">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.name"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.LeaguePoints">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.leaguePoints"/>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.choosingFileCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.ChoosingFileCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.ChoosingFileCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.ChoosingFile"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.confirmCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.ConfirmCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.ConfirmCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.AddingTeamViewModel.Confirm"/>.</summary>
+        </member>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.BaseViewModel.isBusy"/>
+        </member>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.Player">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.player"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.TeamOfPlayer">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.teamOfPlayer"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.SelectedTeam">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.selectedTeam"/>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.getTeamsCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.GetTeamsCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.GetTeamsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.GetTeams"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.confirmCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.ConfirmCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.ConfirmCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.PageForSelectingTeamViewModel.Confirm"/>.</summary>
+        </member>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.Player">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.player"/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.TeamName">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.teamName"/>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.updateTeamsCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.UpdateTeamsCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.UpdateTeamsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.UpdateTeams"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.deletePlayerCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.DeletePlayerCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.DeletePlayerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.DeletePlayer"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.changeTeamCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.ChangeTeamCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.ChangeTeamCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.PlayerDetailsViewModel.ChangeTeam"/>.</summary>
+        </member>
+        <member name="T:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.SelectedTeam">
+            <inheritdoc cref="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.selectedTeam"/>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.updateGroupListCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateGroupListCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateGroupListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateGroupList"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.updateMembersListCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateMembersListCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateMembersListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateMembersList"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.updateAllCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateAllCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateAllCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.UpdateAll"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.addPlayerCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddPlayerCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddPlayerCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddPlayer"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.ShowDetails(_153502_Tolstoi.Domain.Entities.Player)"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.addTeamCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddTeamCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddTeamCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.AddTeam"/>.</summary>
+        </member>
+        <member name="F:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.deleteTeamCommand">
+            <summary>The backing field for <see cref="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.DeleteTeamCommand"/>.</summary>
+        </member>
+        <member name="P:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.DeleteTeamCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_153502_Tolstoi.UI.ViewModels.TeamsPageViewModel.DeleteTeam"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Team">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Team" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Age">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Age" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ScoredGoals">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ScoredGoals" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LeaguePoints">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LeaguePoints" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Player">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Player" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TeamOfPlayer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TeamOfPlayer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedTeam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedTeam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TeamName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TeamName" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Team">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Team" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Age">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Age" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ScoredGoals">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ScoredGoals" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LeaguePoints">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LeaguePoints" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Player">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Player" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TeamOfPlayer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TeamOfPlayer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedTeam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedTeam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TeamName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TeamName" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.csproj.AssemblyReference.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.AssemblyInfoInputs.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.AssemblyInfo.cs
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\bin\Debug\net7.0\153502_Tolstoi.Persistence.deps.json
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\bin\Debug\net7.0\153502_Tolstoi.Persistence.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\bin\Debug\net7.0\153502_Tolstoi.Persistence.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\bin\Debug\net7.0\153502_Tolstoi.Domain.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\bin\Debug\net7.0\153502_Tolstoi.Domain.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.csproj.CopyComplete
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\refint\153502_Tolstoi.Persistence.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\153502_Tolstoi.Persistence.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Persistence\obj\Debug\net7.0\ref\153502_Tolstoi.Persistence.dll

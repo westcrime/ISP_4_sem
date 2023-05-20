@@ -24566,11 +24566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\westcrime\\course_2\\ISP_4_sem\\Lab4\\Lab4\\Lab4.csproj",
+      "projectUniqueName": "C:\\Users\\westcrime\\course_2\\ISP_2\\Lab4\\Lab4\\Lab4.csproj",
       "projectName": "Lab4",
-      "projectPath": "C:\\Users\\westcrime\\course_2\\ISP_4_sem\\Lab4\\Lab4\\Lab4.csproj",
+      "projectPath": "C:\\Users\\westcrime\\course_2\\ISP_2\\Lab4\\Lab4\\Lab4.csproj",
       "packagesPath": "C:\\Users\\westcrime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\westcrime\\course_2\\ISP_4_sem\\Lab4\\Lab4\\obj\\",
+      "outputPath": "C:\\Users\\westcrime\\course_2\\ISP_2\\Lab4\\Lab4\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

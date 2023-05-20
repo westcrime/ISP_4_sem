@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WiqPe3GngSpAq4OwNuEFxyWCSevHP14Br6eyEGElP0DBRxPpbtbSfjb1NsdAngxLWg1Bmwj5B6J69PtyNjz6Xg==",
+  "dgSpecHash": "qtfmAou9GW01pQZ+VTJ08fUUac/bjm7/zpSBcJ98TL6J98aY+4y0Fkgi5E//uMewJam4OdCkBGBQkAZ2wPeLAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\westcrime\\course_2\\ISP_4_sem\\Lab4\\Lab4\\Lab4.csproj",
+  "projectFilePath": "C:\\Users\\westcrime\\course_2\\ISP_2\\Lab4\\Lab4\\Lab4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\westcrime\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\westcrime\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",

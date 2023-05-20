@@ -52,7 +52,7 @@ public partial class IntegralPage : ContentPage
                 MainThread.BeginInvokeOnMainThread(() =>
                 {
                     ProgressBarItem.Progress = (i / (1 / step));
-                    ProgressLabel.Text = Math.Round((Convert.ToDouble(ProgressBarItem.Progress) * 100), 2).ToString() + '%';
+                    ProgressLabel.Text = Math.Round(ProgressBarItem.Progress * 100, 2).ToString() + '%';
                 });
             }
             

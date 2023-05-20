@@ -1,0 +1,15 @@
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\bin\Debug\net7.0\153502_Tolstoi.Application.deps.json
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\bin\Debug\net7.0\153502_Tolstoi.Application.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\bin\Debug\net7.0\153502_Tolstoi.Application.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\bin\Debug\net7.0\153502_Tolstoi.Domain.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\bin\Debug\net7.0\153502_Tolstoi.Domain.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.csproj.AssemblyReference.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.AssemblyInfoInputs.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.AssemblyInfo.cs
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.csproj.CoreCompileInputs.cache
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.csproj.CopyComplete
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\refint\153502_Tolstoi.Application.dll
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\153502_Tolstoi.Application.pdb
+C:\Users\westcrime\course_2\ISP_2\153502_Tolstoi\153502_Tolstoi.Application\obj\Debug\net7.0\ref\153502_Tolstoi.Application.dll

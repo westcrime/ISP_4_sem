@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:_153502_Tolstoi.UI.ViewModels"
+             x:Class="_153502_Tolstoi.UI.Pages.AddingTeamPage"
+             x:DataType="viewmodel:AddingTeamViewModel"
+             Title="Adding a team">
+    <ContentPage.Content>
+        <Grid 
+            BackgroundColor="White"
+            RowDefinitions="Auto,Auto,Auto,*"
+            ColumnDefinitions="150,*"
+            Padding="20"
+            RowSpacing="40">
+            <Label
+                VerticalOptions="Center"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="Enter the name of team"/>
+            <Border
+                Grid.Row="0"
+                Grid.Column="1"
+                Padding="10"
+                StrokeThickness="2"
+                BackgroundColor="White">
+                <Border.StrokeShape>
+                    <RoundRectangle
+                        CornerRadius="20"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry 
+                    VerticalOptions="Center"
+                    Placeholder="Name"
+                    TextColor="Black"
+                    PlaceholderColor="Gray" 
+                    BackgroundColor="White"
+                    MaxLength="20"
+                    Text="{Binding Name}"/>
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Enter the number of league points"/>
+            <Border
+                Grid.Row="1"
+                Grid.Column="1"
+                Padding="10"
+                StrokeThickness="2"
+                BackgroundColor="White">
+                <Border.StrokeShape>
+                    <RoundRectangle
+                        CornerRadius="20"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry 
+                    VerticalOptions="Center"
+                    Placeholder="League Points"
+                    TextColor="Black"
+                    PlaceholderColor="Gray" 
+                    BackgroundColor="White"
+                    MaxLength="200"
+                    Text="{Binding LeaguePoints}"/>
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                FontSize="20"
+                TextColor="Black"
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Choose a photo of logo"/>
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                Text="Choose a file"
+                Margin="10"
+                Command="{Binding ChoosingFileCommand}"
+                TextColor="White"
+                BackgroundColor="{StaticResource Primary}"/>
+
+            <Button
+                Text="Confirm"
+                Grid.Row="3"
+                Grid.ColumnSpan="2"
+                VerticalOptions="End"
+                IsEnabled="{Binding IsNotBusy}"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                CornerRadius="20"
+                HeightRequest="50"
+                Command="{Binding ConfirmCommand}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

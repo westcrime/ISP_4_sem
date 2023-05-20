@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewmodel="clr-namespace:_153502_Tolstoi.UI.ViewModels"
+             x:DataType="viewmodel:PageForSelectingTeamViewModel"
+             x:Class="_153502_Tolstoi.UI.Pages.PageForSelectingTeam">
+
+    <ContentPage.Behaviors>
+        <behaviors:EventToCommandBehavior 
+            EventName="NavigatedTo"
+            Command="{Binding GetTeamsCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Content>
+        <Grid
+            Padding="50"
+            BackgroundColor="White"
+            RowDefinitions="Auto, Auto, *"
+            ColumnDefinitions="Auto, Auto">
+
+            <Border
+            Padding="10"
+            WidthRequest="250"
+            HorizontalOptions="Center"
+            Grid.Row="0"
+            Grid.ColumnSpan="2"
+            Margin="20"
+            BackgroundColor="White"
+            StrokeThickness="0">
+
+                <Border.Shadow>
+                    <Shadow Brush="Black"
+                        Offset="10,10"
+                        Radius="20"
+                        Opacity="0.2" />
+                </Border.Shadow>
+
+                <Border.StrokeShape>
+                    <RoundRectangle
+                    CornerRadius="20"></RoundRectangle>
+                </Border.StrokeShape>
+
+                <Picker
+                    TitleColor="Black"
+                    BackgroundColor="White"
+                    HorizontalTextAlignment="Center"
+                    IsEnabled="{Binding IsNotBusy}"
+                    TextColor="Black"
+                    Title="Pick a team"
+                    ItemsSource="{Binding Teams}"
+                    SelectedItem="{Binding SelectedTeam}"
+                    ItemDisplayBinding="{Binding Name}">
+
+                </Picker>
+
+            </Border>
+
+            <Border
+                Margin="0,10"
+                HeightRequest="150"
+                BackgroundColor="White"
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                Padding="10">
+                <Border.StrokeShape>
+                    <RoundRectangle
+                    CornerRadius="5"></RoundRectangle>
+                </Border.StrokeShape>
+
+                <Grid
+                    RowDefinitions="Auto,Auto"
+                    ColumnDefinitions="125, Auto">
+
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        TextColor="Black"
+                        FontSize="16"
+                        Margin="0,0,0,30"
+                        Text="Current Team: "></Label>
+
+                    <Image
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        Source="{Binding TeamOfPlayer.Photo}"></Image>
+
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        VerticalOptions="Center"
+                        TextColor="Black"
+                        FontSize="16"
+                        Text="{Binding TeamOfPlayer.LeaguePoints, StringFormat='League Points:   {0}'}">
+                    </Label>
+
+                </Grid>
+
+            </Border>
+
+            <Button
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+                VerticalOptions="End"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                Text="Confirm"
+                Command="{Binding ConfirmCommand}"></Button>
+
+            <ActivityIndicator
+            IsVisible="{Binding IsBusy}"
+            IsRunning="{Binding IsBusy}"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            BackgroundColor="Transparent"
+            Color="{StaticResource Primary}"
+            HeightRequest="100"
+            WidthRequest="100"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

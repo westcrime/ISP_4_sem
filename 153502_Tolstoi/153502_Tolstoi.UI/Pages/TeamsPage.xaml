@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_153502_Tolstoi.UI.Pages.TeamsPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:behaviors="clr-namespace:_153502_Tolstoi.Domain.Entities;assembly=153502_Tolstoi.Domain"
+             xmlns:viewmodel="clr-namespace:_153502_Tolstoi.UI.ViewModels"
+             xmlns:converter="using:_153502_Tolstoi.UI.ValueConverters"
+             x:DataType="viewmodel:TeamsPageViewModel"
+             BackgroundColor="White"
+             Title="TeamsPage">
+
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem Text="Add Team"
+                     Order="Secondary"
+                     Command="{Binding AddTeamCommand}"/>
+
+        <ToolbarItem Text="Add new player to team"
+                     Order="Secondary"
+                     Command="{Binding AddPlayerCommand}"/>
+
+        <ToolbarItem Text="Delete team"
+                     Order="Secondary"
+                     Command="{Binding DeleteTeamCommand}"/>
+    </ContentPage.ToolbarItems>
+
+<ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="NavigatedTo"
+            Command="{Binding UpdateAllCommand }"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <converter:GoalsToColorValueConverter x:Key="GoalsToColor" />
+    </ContentPage.Resources>
+
+    <Grid
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        BackgroundColor="White"
+        RowDefinitions="Auto, Auto, Auto, Auto"
+        ColumnDefinitions="Auto, Auto">
+
+        <Border
+            Padding="10"
+            HorizontalOptions="Fill"
+            Grid.Row="0"
+            Grid.ColumnSpan="2"
+            Margin="20"
+            BackgroundColor="White"
+            StrokeThickness="0">
+
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Offset="10,10"
+                        Radius="20"
+                        Opacity="0.2" />
+            </Border.Shadow>
+
+            <Border.StrokeShape>
+                <RoundRectangle
+                    CornerRadius="20"></RoundRectangle>
+            </Border.StrokeShape>
+
+            <Picker
+                TitleColor="Black"
+                BackgroundColor="White"
+                HorizontalTextAlignment="Center"
+                IsEnabled="{Binding IsNotBusy}"
+                TextColor="Black"
+                Title="Pick a team"
+                ItemsSource="{Binding Teams}"
+                SelectedItem="{Binding SelectedTeam}"
+                ItemDisplayBinding="{Binding Name}">
+
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="SelectedIndexChanged"
+                        Command="{Binding UpdateMembersListCommand}">
+                    </toolkit:EventToCommandBehavior>
+                </Picker.Behaviors>
+
+            </Picker>
+
+        </Border>
+
+        <Border
+            Margin="0,10"
+            HeightRequest="75"
+            BackgroundColor="White"
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Padding="10">
+            <Border.StrokeShape>
+                <RoundRectangle
+                    CornerRadius="5"></RoundRectangle>
+            </Border.StrokeShape>
+
+            <Grid
+                ColumnDefinitions="125, Auto">
+
+                <Image
+                    Grid.Column="0"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Source="{Binding SelectedTeam.Photo}"></Image>
+
+                <Label
+                    Grid.Column="1"
+                    VerticalOptions="Center"
+                    TextColor="Black"
+                    FontSize="16"
+                    Text="{Binding SelectedTeam.LeaguePoints, StringFormat='League Points:   {0}'}">
+                </Label>
+
+            </Grid>
+
+        </Border>
+
+        <CollectionView 
+            HeightRequest="500"
+            Grid.ColumnSpan="2"
+            Grid.Row="2"
+            x:Name="CollectionView"
+            ItemsSource="{Binding Players}"
+            SelectionMode="None">
+
+            <CollectionView.EmptyView>
+                <Label
+                    Text="No players found!"
+                    TextColor="Black"
+                    FontSize="28"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"/>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="behaviors:Player">
+                    <Border 
+                        HeightRequest="80"
+                        Padding="10"
+                        BackgroundColor="{Binding Path=ScoredGoalsCount, Converter={StaticResource GoalsToColor}}">
+
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" ></RoundRectangle>
+                        </Border.StrokeShape>
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding
+                                Source={RelativeSource AncestorType={x:Type viewmodel:TeamsPageViewModel} },
+                                Path=ShowDetailsCommand}"
+                                                  CommandParameter="{Binding}"/>
+                        </Border.GestureRecognizers>
+
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding Name}"
+                                   FontSize="18" 
+                                   WidthRequest="300"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalOptions="Center"
+                                   MaxLines="3"
+                                   FontAttributes="Bold"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center"/>
+                        </HorizontalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <ActivityIndicator
+            IsVisible="{Binding IsBusy}"
+            IsRunning="{Binding IsBusy}"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            BackgroundColor="Transparent"
+            Color="{StaticResource Primary}"
+            HeightRequest="100"
+            WidthRequest="100"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+
+    </Grid>
+</ContentPage>
